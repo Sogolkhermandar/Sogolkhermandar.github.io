@@ -12,11 +12,10 @@
 <tw-storydata name="Women in Tudor " startnode="17" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="AE8942A7-5D8E-433D-84FE-CB269D501A3B" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name=" Elizabeth" tags="" position="500,25" size="100,100">
 You were born September 7, 1533.
 
-You were the only child of your family. 
-
+You were the only child of your family.
 You had a very difficult childhood. When you were young, your father executed your mother [[Anne Boleyn]]. 
 
-Your father appointed tutors to manage your education. You excelled, learning at least five languages (French, Italian, Latin, and Flemish) under the expert guidance of humanist scholars like Roger Ascham and John Cheke.
+Your father appointed tutors to manage your education. You excelled, learning at least five languages (French, Italian, Latin, and Flemish) under the expert guidance of humanist scholars like [[Roger Ascham]] and John Cheke.
 
 You spent some time under the care of your stepmother [[Catherine Parr]].
 
@@ -30,14 +29,19 @@ You never got married because you believed that you were already bound to a husb
 
 You made  [[Elizabethan Age]].
 
+(if:$child is &quot;son&quot;)[Tudor dynasty could have continued]
+
 At the age of 69, you passed away. 
 
 The Tudor dynasty came to an end with your death. 
 
-You ruled England for 45 years. 
+How many years did you rule England?
+(input-box:&quot;45 Years&quot;)
+
+
  
- &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Elizabeth_I_when_a_Princess.jpg#/media/File:Elizabeth_I_when_a_Princess.jpg&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/78/Elizabeth_I_when_a_Princess.jpg&quot; alt=&quot;Elizabeth I when a Princess.jpg&quot; height=&quot;720&quot; width=&quot;546&quot;&gt;&lt;/a&gt;</tw-passagedata><tw-passagedata pid="2" name="Bloody Marry" tags="" position="1250,25" size="100,100">
-She was offten nicknamed Bloody Marry due to her severe religuios of protestants during her reign. </tw-passagedata><tw-passagedata pid="3" name="Catherine of Aragon" tags="" position="1300,350" size="100,100">Was (text-colour:purple)[&#39;&#39;Mary I&#39;&#39;]&#39;mother. 
+ &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Elizabeth_I_when_a_Princess.jpg#/media/File:Elizabeth_I_when_a_Princess.jpg&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/78/Elizabeth_I_when_a_Princess.jpg&quot; alt=&quot;Elizabeth I when a Princess.jpg&quot; height=&quot;720&quot; width=&quot;546&quot;&gt;&lt;/a&gt;</tw-passagedata><tw-passagedata pid="2" name="Bloody Mary" tags="" position="1250,25" size="100,100">
+She was offten nicknamed Bloody Mary due to her severe religuios of protestants during her reign. </tw-passagedata><tw-passagedata pid="3" name="Catherine of Aragon" tags="" position="1300,350" size="100,100">Was (text-colour:purple)[&#39;&#39;Mary I&#39;&#39;]&#39;mother. 
 
 She was the first wife of King Henry VIII of England. She was a Spanish princess, born as Catherine of Castile, and married Henry in 1509.</tw-passagedata><tw-passagedata pid="4" name="Catherine Howard" tags="" position="1150,475" size="100,100">She was Queen of England from July 1540 until November 1541 as the fifth wife of your father, King (text-colour:red)+(bg:white)[&#39;&#39;Henry VIII&#39;&#39;].
 
@@ -47,26 +51,36 @@ She was the queen who gave birth to Henry VIII&#39;s son. </tw-passagedata><tw-p
 
 They had significant palaces like [[Woodstock]] and [[Windsor]] castle. 
 
-]]]</tw-passagedata><tw-passagedata pid="8" name="Woodstock" tags="" position="125,250" size="100,100">Was one of the Crown&#39;s most venerable, important and largest country houses. 
+]]]
+
+Did Elizabeth build  or renew castles? 
+(input-box:&quot;YES&quot;)</tw-passagedata><tw-passagedata pid="8" name="Woodstock" tags="" position="125,250" size="100,100">Was one of the Crown&#39;s most venerable, important and largest country houses. 
 
 By the time you were incarcerated there, and the royal lodging were the largest of any house outside the Thames Vally. </tw-passagedata><tw-passagedata pid="9" name="Children" tags="" position="675,0" size="100,100">Tudor dynasty ended because you had not any children. 
 
 The Stuart dynasty started after your death. </tw-passagedata><tw-passagedata pid="10" name="Windsor" tags="" position="250,75" size="100,100">(text-colour:lime)[(text-colour:navy)+(bg:white)[Windsor Castle]] used for state occasions during your reign, such as hosting foreign dignitaries and holding royal ceremonies.
 </tw-passagedata><tw-passagedata pid="11" name="Henry VIII" tags="" position="675,400" size="100,100">The king of England from 1491–1547.
+How many wives did he have? 
+(dropdown: bind $number3, &quot;4&quot;, &quot;5&quot;, &quot;6&quot;,&quot;7&quot;,)
 
 Henry is known for his six marriages and his efforts to have his first marriage to [[Catherine of Aragon]] annulled. 
 
 He is frequently characterized in his later life as a lustful, egotistical, paranoid, and tyrannical monarch.
 
 
+
   &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/3/32/1491_Henry_VIII.jpg&quot; alt=&quot;1491 Henry VIII.jpg&quot; height=&quot;720&quot; width=&quot;582&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/en:Joos_van_Cleve&quot; class=&quot;extiw&quot; title=&quot;w:en:Joos van Cleve&quot;&gt;&lt;span title=&quot;Flemish painter (1485–1540)&quot;&gt;</tw-passagedata><tw-passagedata pid="12" name="Roger Ascham" tags="" position="400,200" size="100,100">Was an English scholar and didactic writer, famous for his prose style, his promotion of the vernacular, and his theories of education.</tw-passagedata><tw-passagedata pid="13" name="Elizabethan Age" tags="" position="525,225" size="100,100">The period during which you controlled England is called as the Elizabethan Age. Popularly known as the Golden Age or the English Renaissance. 
 
 It was a period of relative peace and prosperity, as well as a flourishing of artistic, literary, and intellectual life.
-</tw-passagedata><tw-passagedata pid="14" name="Mary I" tags="" position="1025,25" size="100,100">(text-colour:purple)[&#39;&#39;Mary I&#39;&#39;] was your half sister. [[Bloody Marry]] was Queen of England and Ireland from January 1556 until her death in 1558. 
+</tw-passagedata><tw-passagedata pid="14" name="Mary I" tags="" position="1025,25" size="100,100">(text-colour:purple)[&#39;&#39;Mary I&#39;&#39;] was your half sister. [[Bloody Mary]] was Queen of England and Ireland from January 1556 until her death in 1558. 
 
 Marry I was the only child of [[Henry VIII]] and [[Catherine of Aragon]].
 
 Mary&#39;s betrothal to a Spanish prince works out, strengthening links between England and Spain. However, many English aristocrats saw a threat from Spain&#39;s expanding influence in English affairs.
+
+Who is Bloody Mary?
+(dropdown: bind $name3, &quot;Elizabeth&#39;friend&quot;, &quot;her sister&quot;, &quot;her mother&quot;)
+
 
 
 &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Anthonis_Mor_001.jpg#/media/File:Anthonis_Mor_001.jpg&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/f/fe/Anthonis_Mor_001.jpg&quot; alt=&quot;Mary has a high forehead, thin lips and hair parted in the middle&quot; height=&quot;720&quot; width=&quot;542&quot;&gt;&lt;/a&gt;</tw-passagedata><tw-passagedata pid="15" name="Catherine Parr" tags="" position="475,400" size="100,100">She was the sixth and final wife of King (text-colour:red)+(bg:white)[&#39;&#39;Henry VIII&#39;&#39;] of England. She married Henry in 1543, and she remained his wife until his death in 1547.
@@ -86,14 +100,14 @@ When you were two, your mother was executed, and you were declared illegitimate.
 &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:AnneBoleynHever.jpg#/media/File:AnneBoleynHever.jpg&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/03/AnneBoleynHever.jpg&quot; alt=&quot;AnneBoleynHever.jpg&quot; height=&quot;720&quot; width=&quot;538&quot;/a&gt;</tw-passagedata><tw-passagedata pid="17" name=" Elizabethan Era &amp; Women in Tudor Era" tags="" position="750,100" size="100,100">
 This type of story is strictly true and follows a writer&#39;s interest. As you go along, you will encounter side massages and be able to investigate female figures from Tudor era. 
 
-(text-colour:navy)+(bg:(gradient: 0, 0,#ffffff,0.637,#e619e5,1,#ffffff))[Choose your own favorite charachter from Tudor Era:]
+(text-colour:navy)+(bg:(gradient: 0, 0,#ffffff,0.637,#e619e5,1,#ffffff))[Choose your own favorite charachter from Tudor Era:](set: _Elizabeth to 1)
 
-(after:3s)[[[ Elizabeth]] ]
-(after:4s)[[[[Henry VIII]]]]
-(after:5s)[[[Anne Boleyn]]  ]
-(after:6s)[[[Catherine Parr]]]
-(after:7s)[[[Catherine Howard]] ]
-(after:8s)[[[Mary I]] ]
+(after:3s)[ [[ Elizabeth]] ]
+(after:4s)[ [[[Henry VIII]]]]
+(after:5s)[ [[Anne Boleyn]]  ]
+(after:6s)[ [[Catherine Parr]]]
+(after:7s)[ [[Catherine Howard]] ]
+(after:8s)[ [[Mary I]] ]
 
 
 You are [[ Elizabeth]], Queen of England and Ireland, and by reading this narrative you can learn how historian think about you and your era. 
@@ -105,7 +119,11 @@ Your father Had six wives, [[Catherine Parr]], [[Catherine Howard]], [[Anne of C
 You were suspicion of supporting protestant rebels, and [[Mary I]] your half-sister became queen when you were prisoned. 
 
 
-</tw-passagedata><tw-passagedata pid="18" name="[ Elizabeth" tags="" position="437.5,975" size="100,100"></tw-passagedata><tw-passagedata pid="19" name="[[Henry VIII" tags="" position="562.5,975" size="100,100"></tw-passagedata><tw-passagedata pid="20" name="[Anne Boleyn" tags="" position="687.5,975" size="100,100"></tw-passagedata><tw-passagedata pid="21" name="[Catherine Parr" tags="" position="812.5,975" size="100,100"></tw-passagedata><tw-passagedata pid="22" name="[Catherine Howard" tags="" position="937.5,975" size="100,100"></tw-passagedata><tw-passagedata pid="23" name="[Mary I" tags="" position="1062.5,975" size="100,100"></tw-passagedata></tw-storydata>
+You want to be (dropdown:bind $name3, &quot;Elizabeth&quot;, &quot;MaryI&quot;, &quot;Anne Boleyn&quot;, &quot;Catherine Parr&quot;, &quot;Catherine Howard&quot; )
+
+No, No. You are just (input-box:&quot;Elizabeth&quot;)
+
+</tw-passagedata><tw-passagedata pid="18" name="[Henry VIII" tags="" position="750,225" size="100,100"></tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
